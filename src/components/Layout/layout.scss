@@ -1,0 +1,26 @@
+.layout{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.leftPanel{
+    flex: 30%;
+    margin: 1.5rem;
+}
+
+.rightPanel{
+    flex: 70%;
+    margin: 1.5rem;
+}
